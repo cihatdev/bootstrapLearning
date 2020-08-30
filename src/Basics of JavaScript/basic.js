@@ -37,7 +37,6 @@ sehirler.push("Bursa");
 let newSehirler = sehirler.concat(["Adiman", "Malatya"]);
 newSehirler.sort();
 console.log(newSehirler);
-*/
 
 var users = [
   { email: "sdfasdf@gmail.com", sifre: "2344" },
@@ -50,8 +49,17 @@ var tweets = [
   { email: "aliveli45@gmail.com", tweet: "Aga Noluyo Aga" },
   { email: "aslıenverMuratBoz@gmail.com", tweet: "Aga Noluyo Aga" },
 ]
+ */
 
 array = [1, 2, 34, 453, 345, 345, 3453, 34534];
 array.forEach(item => {
+  console.log(item);
+});
+
+array.forEach(item => {
+  console.log(item);
+});
+console.log("****************");
+array.forEach(function (item) {
   console.log(item);
 });
