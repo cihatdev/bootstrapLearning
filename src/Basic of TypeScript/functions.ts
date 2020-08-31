@@ -21,6 +21,13 @@ let topla4 = function (x: number = 5, y?: number): number {
   }
   return x;
 };
+//rest parametreleri dizi alan parametrelerdir, bir sınır yoktur istenilen kadar eklenilir.Aynı zamanda hiç değerde gönderilmeyebilinir.
+function davetEt(firstInvitation: string, ...others: string[]): string {
+  return firstInvitation + "\n" + others.join("\n");
+}
+function davetEt2(...others: string[]): string {
+  return others.join("\n");
+}
 
 // console.log("Toplam değer " + add(34, 56));
-console.log(topla3(4));
+console.log(davetEt2("Engin", "Derin ", "Mehmet", "Veli", "Ahmet", "Ali"));
