@@ -1,4 +1,7 @@
 abstract class CreditBase {
+  // abstract sınıflar hem içi doldurulmuş hem de içi boş metotlar bulunabilir. 
+  //Extend eden sınıf farklı bir fonksiyonda bulunabilir ama extend ettiği ana classın içindeki bğtğn fonk.ları doldurmalı
+  //interfaceler de ise sedece içi boş metotlar mevcutttur.
   constructor() {}
   save(): void {
     console.log("Saved");
