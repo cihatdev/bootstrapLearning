@@ -1,1 +1,7 @@
-<p>category works!</p>
+<h3>{{ title }}</h3>
+<div class="list-group">
+  <a class="list-group-item active" href=""> Tüm Ürünler</a>
+</div>
+<div class="list-group" *ngFor="let category of categories">
+  <a class="list-group-item" href="">{{ category.name }}</a>
+</div>

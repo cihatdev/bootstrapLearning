@@ -9,6 +9,7 @@ import { Product } from './product';
 export class ProductComponent implements OnInit {
   constructor() {}
   title = 'Ürün Listesi';
+  filterText = '';
   products: Product[] = [
     {
       id: 1,
