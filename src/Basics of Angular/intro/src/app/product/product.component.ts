@@ -2,14 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-product',
-  templateUrl: './product.component.html',
-  styleUrls: ['./product.component.css']
+  template: `<p>{{ name }} !</p> `,
+  styleUrls: ['./product.component.css'],
 })
 export class ProductComponent implements OnInit {
-
-  constructor() { }
-  name = "Laptop"
-  ngOnInit(): void {
-  }
-
+  constructor() {}
+  name = 'Laptop';
+  ngOnInit(): void {}
 }

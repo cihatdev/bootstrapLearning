@@ -12,9 +12,9 @@ export class CategoryComponent implements OnInit {
   categories: Category[] = [
     { id: 1, name: 'Elektronik' },
     { id: 2, name: 'Bilgisayar' },
-    { id: 3, name: 'İletişim' },
-    { id: 4, name: 'Müzik' },
-    { id: 5, name: 'İçecek' },
+    { id: 3, name: 'Televizyon' },
+    { id: 4, name: 'Tablet' },
+    { id: 5, name: 'İletişim' },
   ];
 
   ngOnInit(): void {}
