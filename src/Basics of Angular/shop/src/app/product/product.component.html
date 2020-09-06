@@ -20,7 +20,6 @@
   <div
     *ngFor="let product of products | productFilter: filterText"
     class="card productbox"
-    style="width: 18rem"
   >
     <img [src]="product.imageUrl" class="card-img-top" alt="..." />
     <div class="card-body">
