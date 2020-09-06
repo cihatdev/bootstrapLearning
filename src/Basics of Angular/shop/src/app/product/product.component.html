@@ -1,4 +1,5 @@
-<h3 *ngIf="products; else noProduct">{{ title }}</h3>
+<!-- <h3 *ngIf="products; else noProduct">{{ title }}</h3> -->
+<app-category></app-category>
 <div class="form-group">
   <input
     class="form-control"
@@ -18,7 +19,7 @@
   </ng-template>
   <div
     *ngFor="let product of products | productFilter: filterText"
-    class="card"
+    class="card productbox"
     style="width: 18rem"
   >
     <img [src]="product.imageUrl" class="card-img-top" alt="..." />
