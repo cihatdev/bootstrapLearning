@@ -16,7 +16,12 @@
     </button>
     <ul class="navbar-nav px-3">
       <li class="nav-item text-nowrap">
-        <a class="nav-link" routerLink="/login"> Login </a>
+        <a *ngIf="isLoggedIn() == false" class="nav-link" routerLink="/login">
+          Giriş
+        </a>
+        <a *ngIf="isLoggedIn() == true" (click)="(logOut)" class="nav-link">
+          Çıkış
+        </a>
       </li>
     </ul>
   </nav>

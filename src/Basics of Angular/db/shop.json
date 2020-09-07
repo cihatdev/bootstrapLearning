@@ -79,6 +79,14 @@
       "price": "200",
       "categoryId": "8",
       "id": 10
+    },
+    {
+      "name": "Apple",
+      "categoryId": "6",
+      "description": "Apple Watch 5",
+      "imageUrl": "https://productimages.hepsiburada.net/s/32/375/10352550445106.jpg",
+      "price": "600",
+      "id": 11
     }
   ],
   "categories": [
