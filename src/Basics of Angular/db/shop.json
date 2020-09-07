@@ -71,6 +71,14 @@
       "categoryId": "2",
       "imageUrl": "https://reimg-teknosa-cloud-prod.mncdn.com/mnresize/600/600/productimage/125077532/125077532_9_MC/8836401627186_1598316627299.jpg",
       "id": 9
+    },
+    {
+      "name": "Tost Makinası",
+      "description": "Arçelik Izgaralı",
+      "imageUrl": "https://www.enplus.com.tr/Uploads/UrunResimleri/buyuk/grundig-cg_6860-tost-makinesikategorisiz-1064.jpg",
+      "price": "200",
+      "categoryId": "8",
+      "id": 10
     }
   ],
   "categories": [
