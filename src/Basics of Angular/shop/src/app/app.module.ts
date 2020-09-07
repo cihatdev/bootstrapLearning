@@ -12,6 +12,7 @@ import { from } from 'rxjs';
 import { AlertifyService } from './services/alertify.service';
 import { AppRoutingModule } from './app-routing.module';
 import { ProductAddForms1Component } from './product/product-add-forms1/product-add-forms1.component';
+import { ProductAddForms2Component } from './product/product-add-forms2/product-add-forms2.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ProductAddForms1Component } from './product/product-add-forms1/product-
     ProductComponent,
     ProductFilterPipe,
     ProductAddForms1Component,
+    ProductAddForms2Component,
   ],
   imports: [BrowserModule, FormsModule, HttpClientModule, AppRoutingModule],
   providers: [AlertifyService],
