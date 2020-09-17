@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { Badge, ListGroup, ListGroupItem } from 'reactstrap'
+import { Badge, Button, ListGroup, ListGroupItem } from 'reactstrap'
 import { bindActionCreators } from "redux"
 import * as categoryActions from "../../redux/actions/categoryActions"
 import * as  productActions from '../../redux/actions/productActions'
@@ -19,7 +19,7 @@ class CategoryList extends Component {
     return (
       <div>
         <h3>
-          <Badge color="primary">Categories</Badge>
+          <Badge color="primary">Kategoriler</Badge>
         </h3>
         <ListGroup>
           {
@@ -28,7 +28,9 @@ class CategoryList extends Component {
                 active={category.id === this.props.currentCategory.id}
                 onClick={() => this.selectcategory(category)}
                 key={category.id}>
-                {category.categoryName}
+                <Button color="link">
+                  {category.categoryName}
+                </Button>
               </ListGroupItem>
             ))
           }

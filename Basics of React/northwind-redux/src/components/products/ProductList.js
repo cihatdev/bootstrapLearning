@@ -15,22 +15,22 @@ class ProductList extends Component {
 
   addToCart = (product) => {
     this.props.actions.addToCart({ quantity: 1, product })
-    alertify.success(product.productName + "Sepete Eklendi...")
+    alertify.success(product.productName + "  Sepete Eklendi 🎈🎉✨🎇...")
   }
 
   render() {
     return (
       <div>
-        <Badge color="warning">Products</Badge>
+        <Badge color="warning">Ürünler</Badge>
         <Badge color="success">{this.props.currentCategory.categoryName}</Badge>
         <Table>
           <thead>
             <tr>
               <th>#</th>
-              <th>Product Name</th>
-              <th>Unit Price</th>
-              <th>Quantity Per Unit</th>
-              <th>Unit In Stock</th>
+              <th>Ürün Adı</th>
+              <th>Ürün Fiyatı</th>
+              <th>Birim Adedi</th>
+              <th>Stoktaki Birim Adedi</th>
               <th></th>
             </tr>
           </thead>
