@@ -28,7 +28,7 @@ class CategoryList extends Component {
                 active={category.id === this.props.currentCategory.id}
                 onClick={() => this.selectcategory(category)}
                 key={category.id}>
-                <Button color="link">
+                <Button color="success">
                   {category.categoryName}
                 </Button>
               </ListGroupItem>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
   Collapse,
   Navbar,
@@ -8,7 +9,8 @@ import {
   NavItem,
   NavLink,
   NavbarText,
-  Button
+  Button,
+  Badge
 } from 'reactstrap';
 import CartSummary from '../cart/CartSummary';
 
@@ -20,7 +22,7 @@ const Navi = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/"><Button color="dark">React App</Button></NavbarBrand>
+        <NavbarBrand ><Link to="/"><h4>Northwind Project</h4></Link></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -29,10 +31,13 @@ const Navi = (props) => {
             </NavItem>
             <CartSummary />
           </Nav>
-          <NavbarText>#######</NavbarText>
+          <NavbarText><Button color="success">
+            <Link to="/saveproduct">Ürün Ekle</Link>
+          </Button>
+          </NavbarText>
         </Collapse>
-      </Navbar>
-    </div>
+      </Navbar >
+    </div >
   );
 }
 
