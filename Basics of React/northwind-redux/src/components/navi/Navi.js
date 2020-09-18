@@ -27,7 +27,7 @@ const Navi = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <Link to="/Menu"> <Button color="success">Ana Menü</Button></Link>
+              <Button color="success"> <Link to="/Menu"> Ana Menü</Link></Button>
             </NavItem>
             <CartSummary />
           </Nav>

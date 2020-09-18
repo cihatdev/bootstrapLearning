@@ -10,7 +10,7 @@ import { BrowserRouter as Router } from "react-router-dom"
 
 const store = configureStore();
 ReactDOM.render(
-  <Router basename="fronEnd-Dev/">
+  <Router >
     <Provider store={store}>
       <App />
     </Provider>
