@@ -23,7 +23,7 @@ class CartSummary extends Component {
   renderEmpty() {
     return (
       <NavItem>
-        <NavLink href="/cart"><Button color="danger">Sepetiniz Boş</Button></NavLink>
+        <NavLink href="cihatdev.github.io/fronEnd-Dev/cart"><Button color="danger">Sepetiniz Boş</Button></NavLink>
       </NavItem>
     )
   }
@@ -51,7 +51,7 @@ class CartSummary extends Component {
           }
           <DropdownItem divider />
           <DropdownItem>
-            <Link to="/cart">
+            <Link to="/cihatdev.github.io/fronEnd-Dev/cart">
               <Badge color="info">
                 Sepete Git
               </Badge>

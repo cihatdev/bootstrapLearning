@@ -9,15 +9,15 @@ import Dashboard from './Dashboard';
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="cihatdev.github.io/fronEnd-Dev/">
       <Container>
         <Navi />
         <Switch>
-          <Route exact path="/" component={Dashboard} />
-          <Route path="/product" component={Dashboard} />
-          <Route path="/cart" component={CartDetail} />
-          <Route path="/saveproduct/:productId" component={AddOrUpdateProduct} />
-          <Route path="/saveproduct" component={AddOrUpdateProduct} />
+          <Route exact path="cihatdev.github.io/fronEnd-Dev/" component={Dashboard} />
+          <Route path="cihatdev.github.io/fronEnd-Dev/product" component={Dashboard} />
+          <Route path="cihatdev.github.io/fronEnd-Dev/cart" component={CartDetail} />
+          <Route path="cihatdev.github.io/fronEnd-Dev/saveproduct/:productId" component={AddOrUpdateProduct} />
+          <Route path="cihatdev.github.io/fronEnd-Dev/saveproduct" component={AddOrUpdateProduct} />
           <Route exact component={NotFound} />
         </Switch>
       </Container>

@@ -27,12 +27,12 @@ const Navi = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/"> <Button color="success">Ana Menü</Button></NavLink>
+              <NavLink href="cihatdev.github.io/fronEnd-Dev/"> <Button color="success">Ana Menü</Button></NavLink>
             </NavItem>
             <CartSummary />
           </Nav>
           <NavbarText><Button color="success">
-            <Link to="/saveproduct">Ürün Ekle</Link>
+            <Link to="cihatdev.github.io/fronEnd-Dev/saveproduct/">Ürün Ekle</Link>
           </Button>
           </NavbarText>
         </Collapse>
