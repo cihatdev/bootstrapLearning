@@ -6,15 +6,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Provider } from 'react-redux';
 import configureStore from "./redux/reducers/configureStore"
 import 'alertifyjs/build/css/alertify.min.css'
-import { HashRouter } from "react-router-dom"
+import { BrowserRouter as Router } from "react-router-dom"
 
 const store = configureStore();
 ReactDOM.render(
-  <HashRouter>
+  <Router basename={process.env.PUBLIC_URL}>
     <Provider store={store}>
       <App />
     </Provider>
-  </HashRouter>,
+  </Router>,
   document.getElementById('root')
 );
 
