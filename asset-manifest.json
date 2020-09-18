@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/fronEnd-Dev/static/js/main.32ab8297.chunk.js",
-    "main.js.map": "/fronEnd-Dev/static/js/main.32ab8297.chunk.js.map",
+    "main.js": "/fronEnd-Dev/static/js/main.5f50ffce.chunk.js",
+    "main.js.map": "/fronEnd-Dev/static/js/main.5f50ffce.chunk.js.map",
     "runtime-main.js": "/fronEnd-Dev/static/js/runtime-main.38fcaaf0.js",
     "runtime-main.js.map": "/fronEnd-Dev/static/js/runtime-main.38fcaaf0.js.map",
     "static/css/2.8fe03e69.chunk.css": "/fronEnd-Dev/static/css/2.8fe03e69.chunk.css",
     "static/js/2.e3dc3c98.chunk.js": "/fronEnd-Dev/static/js/2.e3dc3c98.chunk.js",
     "static/js/2.e3dc3c98.chunk.js.map": "/fronEnd-Dev/static/js/2.e3dc3c98.chunk.js.map",
     "index.html": "/fronEnd-Dev/index.html",
-    "precache-manifest.060e74d816c0302e285135ac8be6f87d.js": "/fronEnd-Dev/precache-manifest.060e74d816c0302e285135ac8be6f87d.js",
+    "precache-manifest.98b98cd0eb755ce1b1150a1e73d9c51d.js": "/fronEnd-Dev/precache-manifest.98b98cd0eb755ce1b1150a1e73d9c51d.js",
     "service-worker.js": "/fronEnd-Dev/service-worker.js",
     "static/css/2.8fe03e69.chunk.css.map": "/fronEnd-Dev/static/css/2.8fe03e69.chunk.css.map",
     "static/js/2.e3dc3c98.chunk.js.LICENSE.txt": "/fronEnd-Dev/static/js/2.e3dc3c98.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.38fcaaf0.js",
     "static/css/2.8fe03e69.chunk.css",
     "static/js/2.e3dc3c98.chunk.js",
-    "static/js/main.32ab8297.chunk.js"
+    "static/js/main.5f50ffce.chunk.js"
   ]
 }
