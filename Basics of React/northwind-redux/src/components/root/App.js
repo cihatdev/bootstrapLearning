@@ -12,11 +12,11 @@ function App() {
     <Container>
       <Navi />
       <Switch>
-        <Route path="cihatdev.github.io/fronEnd-Dev/" exact component={Dashboard} />
-        <Route path="cihatdev.github.io/fronEnd-Dev/product" component={Dashboard} />
-        <Route path="cihatdev.github.io/fronEnd-Dev/cart" component={CartDetail} />
-        <Route path="cihatdev.github.io/fronEnd-Dev/saveproduct/:productId" component={AddOrUpdateProduct} />
-        <Route path="cihatdev.github.io/fronEnd-Dev/saveproduct" component={AddOrUpdateProduct} />
+        <Route path="fronEnd-Dev/" exact component={Dashboard} />
+        <Route path="fronEnd-Dev/product" component={Dashboard} />
+        <Route path="fronEnd-Dev/cart" component={CartDetail} />
+        <Route path="fronEnd-Dev/saveproduct/:productId" component={AddOrUpdateProduct} />
+        <Route path="fronEnd-Dev/saveproduct" component={AddOrUpdateProduct} />
         <Route component={NotFound} />
       </Switch>
     </Container>
