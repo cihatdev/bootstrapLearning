@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ad32aee5ccb6bc88ef33623171333eb",
+    "revision": "8da0ef0319b80f11b53166fbda37e12e",
     "url": "/fronEnd-Dev/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fronEnd-Dev/static/js/2.e3dc3c98.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a16bec0186774dc87bac",
-    "url": "/fronEnd-Dev/static/js/main.2d8799e3.chunk.js"
+    "revision": "576ae5f9e56e4fd938a2",
+    "url": "/fronEnd-Dev/static/js/main.32ab8297.chunk.js"
   },
   {
     "revision": "60c84372ac33a32de959",
