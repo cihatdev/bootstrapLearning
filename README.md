@@ -33,7 +33,7 @@ Also when doing requests, it's good to know that:
 - Id values are not mutable. Any `id` value in the body of your PUT or PATCH request will be ignored. Only a value set in a POST request will be respected, but only if not already taken.
 - A POST, PUT or PATCH request should include a `Content-Type: application/json` header to use the JSON in the request body. Otherwise it will return a 2XX status code, but without changes being made to the data.
 
-#React
+# React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
